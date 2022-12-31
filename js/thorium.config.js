@@ -8,9 +8,9 @@ const kDebugMessagesLevel= 1;
 const kHybridAppsLog = true;
 const kAutoUpdate=false;
 const kShowPreloader=false;
-const kLocalRoot = "http://localhost:8080/carbonized_red/";
+const kLocalRoot = "http://localhost:8080/resignerluth.space/";
 const kMediaRoot = './db/dbassets/';
-const kRemoteHost="https://carbonized.red/";
+const kRemoteHost="https://resignerluth.space/";
 const kTimeOut =6000;
 const kCrossDomain =false;
 const kAuthMode =0;
@@ -119,8 +119,8 @@ if (document.location.search.indexOf('theme=') >= 0) {
     theme = document.location.search.split('theme=')[1].split('&')[0];
 }
 var app = new Framework7({
-    "version": "1.0.0",
-    "id": "com.thorium.carbonized_red",
+    "version": "1.0.4",
+    "id": "com.thorium.resignerluth",
     "root": "#app",
     "theme": theme,
     "autoDarkTheme": false,
