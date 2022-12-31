@@ -1,0 +1,9 @@
+<IfModule mod_headers.c>
+  Header always set Permissions-Policy: interest-cohort=()
+</IfModule>
+
+Options -Indexes
+<Files ~ "\.db$">
+    Order allow,deny
+    Deny from all
+</Files>
