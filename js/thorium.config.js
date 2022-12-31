@@ -32,7 +32,7 @@ const kAddToHomeScreenIos = true;
 const kAddToHomeScreenMd = true;
 const kSkipButton=true;
 const kSkipButtonText="Skip";
-const kAddToHomeScreenTitle="Carbonized Red";
+const kAddToHomeScreenTitle="Resigner Luth";
 const kAddToHomeScreenMdText="Save to desktop now";
 const kAddToHomeScreenIosText="Save to home screen now";
 const kImgMaxSize=10;
@@ -126,7 +126,7 @@ var app = new Framework7({
     "autoDarkTheme": false,
     "language": "en",
     "routes": routes,
-    "name": "Carbonized Red",
+    "name": "Resigner Luth",
     "initOnDeviceReady": true,
     "init": true,
     "iosTranslucentBars": true,
