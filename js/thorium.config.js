@@ -27,7 +27,7 @@ const kPhotoBrowserTheme="dark";
 const kPhotoBrowserEffect="fade";
 const kPhotoBrowserAutoPlay="";
 
-const kForceInstall = true;
+const kForceInstall = false;
 const kAddToHomeScreenIos = true;
 const kAddToHomeScreenMd = true;
 const kSkipButton=true;
@@ -119,7 +119,7 @@ if (document.location.search.indexOf('theme=') >= 0) {
     theme = document.location.search.split('theme=')[1].split('&')[0];
 }
 var app = new Framework7({
-    "version": "1.0.4",
+    "version": "1.1.7",
     "id": "com.thorium.resignerluth",
     "root": "#app",
     "theme": theme,
